@@ -43,9 +43,9 @@ namespace Deym
             int num1, num2;
 
             Console.WriteLine("Enter Num1:");
-            nim1 = int.Parse(Console.ReadLine());
+            num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Num 2");
-            nim2 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
 
             meth.Add(num1, num2);
             meth.Sub(num1, num2);
